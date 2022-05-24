@@ -11,6 +11,15 @@ public class AddressBookMain {
         contact.setState("Maharastra");
         contact.setPhoneNumber("9586245695");
 
+        Contact contact1=new Contact();
+        contact1.setFname("Ayansh");
+        contact1.setLname("Jadhao");
+        contact1.setAddress("gandhi nagar");
+        contact1.setCity("mumbai");
+        contact1.setPhoneNumber("7545623515");
+        contact1.setState("Maharasta");
+        System.out.println(contact1.toString());
+
         System.out.println(contact.toString());
 
     }
