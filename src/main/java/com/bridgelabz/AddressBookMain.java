@@ -1,7 +1,12 @@
 package com.bridgelabz;
 
+import java.security.KeyStore;
+import java.util.*;
+
+import static sun.security.util.Resources_fr.contents;
+
 public class AddressBookMain {
-    public static void main(String[] args) {
+    public static <T> void main(String[] args) {
         System.out.println("Welcome To Address Book");
         Contact contact=new Contact();
         contact.setFname("Kalyani");
@@ -21,6 +26,19 @@ public class AddressBookMain {
         System.out.println(contact1.toString());
 
         System.out.println(contact.toString());
+
+        T contents = null;
+        List<Map.Entry> to_sort = new ArrayList<Map.Entry>((Collection<? extends Map.Entry>) Arrays.asList(contents));
+        Collections.sort(to_sort, new Comparator<Map.Entry>() {
+            @Override
+            public int compare(Map.Entry o1, Map.Entry o2) {
+                return 0;
+            }
+
+            public int compare(Entry one, Entry other) {
+                return one.[whatever is at n].compareTo(other.[whatever is at n]);
+            }
+        });
 
     }
 
