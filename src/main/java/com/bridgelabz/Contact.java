@@ -1,3 +1,5 @@
+package com.bridgelabz;
+
 public class Contact {
     private String Fname;
     private String Lname;
