@@ -14,4 +14,52 @@ public class AddressBookMain {
         System.out.println(contact.toString());
 
     }
+
+    public void setState(String next) {
+    }
+
+    public void setCity(String next) {
+    }
+
+    public void setAddress(String next) {
+    }
+
+    public void setPhonenumber(long nextLong) {
+    }
+
+    public void setLname(String next) {
+    }
+
+    public void setfname(String next) {
+    }
+
+    public Object getFname() {
+        return true;
+    }
+
+    public void setPhoneno(long nextLong) {
+    }
+
+    public void setFname(String name) {
+    }
+
+    public String getAddress() {
+        return null;
+    }
+
+    public String getLname() {
+        return null;
+    }
+
+    public String getPhonenumber() {
+        return null;
+    }
+
+    public String getCity() {
+        return null;
+    }
+
+    public String getState() {
+        return null;
+    }
 }
